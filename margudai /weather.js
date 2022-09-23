@@ -9,7 +9,6 @@ const getData = async (city) => {
       `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=0a9b1d70e2d449a7fcadd8c7ceaaade5`
     );
     const info = await data.json();
-    document.getElementsByClassName('number').
     console.log(info); scrollBy
   };
   

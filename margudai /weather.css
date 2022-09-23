@@ -1,0 +1,90 @@
+body{ 
+    background-color: #6B7280   ;
+}
+#container { 
+    background-color: black;
+    color: red;
+    height: 896px;
+    width: 414px;
+    border-radius: 48px;
+    display: grid;
+    grid-template-rows: 25% 35% 30% 10% ; 
+    overflow: hidden
+    
+}
+.grid-item-1{
+    background-color: whitesmoke; 
+    display: flex;
+
+
+} 
+.icon { 
+    width: 350px;
+    height: 350px;
+    position: absolute;
+}
+.dude { 
+    width: 207px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.grid-item-2{
+ background-color: white;
+ display: flex;                         
+ justify-content: center;
+ align-items: center;
+}
+.grid-item-3{
+    background-color: whitesmoke 
+
+}
+.grid-item-4{
+    background-color: white; 
+
+}
+.date {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #6B7280;
+}
+.city { 
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  color: #111827;
+
+}
+.location { 
+    background-color: white;
+    width: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{ 
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 144px;
+line-height: 197px;
+background: linear-gradient(180deg, #111827 0%, #6B7280 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+background-color: white;
+}
+.outside { 
+   color: orange;
+}
