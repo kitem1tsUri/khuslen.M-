@@ -73,7 +73,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.number{ 
+#number{ 
     font-family: 'Manrope';
 font-style: normal;
 font-weight: 800;
