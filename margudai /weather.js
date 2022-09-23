@@ -11,7 +11,8 @@ const getData = async (city) => {
     );
     const info = await data.json();
     document.getElementById('number').innerHTML = Math.floor(info.main.temp)+"°";
-    document.getElementsByClassName('city').innerHTML = "1";
+    document.getElementById('city').innerHTML = info.name;
+    document.getElementById('outside').innerHTML = info.weather.0.main;
     console.log(info); scrollBy
   };
   

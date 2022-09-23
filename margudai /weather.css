@@ -53,7 +53,7 @@ body{
   line-height: 25px;
   color: #6B7280;
 }
-.city { 
+#city { 
   background-color: white;
   display: flex;
   justify-content: center;
@@ -85,6 +85,6 @@ background: linear-gradient(180deg, #111827 0%, #6B7280 100%);
 background-clip: text;
 background-color: white;
 }
-.outside { 
+#outside { 
    color: orange;
 }
