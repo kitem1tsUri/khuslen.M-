@@ -12,9 +12,31 @@ const getData = async (city) => {
     const info = await data.json();
     document.getElementById('number').innerHTML = Math.floor(info.main.temp)+"°";
     document.getElementById('city').innerHTML = info.name;
-    document.getElementById('outside').innerHTML = info.weather.0.main;
-    console.log(info); scrollBy
-  };
+    document.getElementById('outside').innerHTML = info.weather[0].main;
+    console.log(info); scrollBy 
+    console.log(info.weather[0].main)
+ 
+switch (info.weather[0].main) {
+  case "Clear":
+    console.log('clear')
+   document.getElementById('icon').src="./icons/Sun.png"
+  break; 
+  case "Clouds":
+    console.log('clouds')
+   document.getElementById('icon').src="./icons/Clouds.png"
+  break; 
+  case "Rain": 
+  console.log('Rain')
+   document.getElementById('icon').src="./icons/Rain.png"  
+  break;
+  case "Snow": 
+  console.log('Rain')
+   document.getElementById('icon').src="./icons/Snow.png"  
+  break;
   
+    
+
+} };
+
   // getData("ulaanbaatar");
-// s
+// 
